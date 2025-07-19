@@ -1,5 +1,5 @@
 public class KthSmallest {
-    public int kthSmallestelement(int[][] matrix, int k) {
+    public int kthSmallestele(int[][] matrix, int k) {
 
         PriorityQueue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());
         for(int i =0; i< matrix.length; i++){
