@@ -1,5 +1,6 @@
 public class KthSmallest {
-    public int kthSmallestele(int[][] matrix, int k) {
+    //https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/
+    public int kthSmallestElementInASortedArray(int[][] matrix, int k) {
 
         PriorityQueue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());
         for(int i =0; i< matrix.length; i++){
