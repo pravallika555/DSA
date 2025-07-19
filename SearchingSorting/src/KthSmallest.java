@@ -1,8 +1,6 @@
-class Solution {
-//https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+public class KthSmallest {
+    public int kthSmallestelement(int[][] matrix, int k) {
 
-    public int kthSmallest(int[][] matrix, int k) {
-        
         PriorityQueue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());
         for(int i =0; i< matrix.length; i++){
             for(int j = 0; j< matrix.length; j++){
